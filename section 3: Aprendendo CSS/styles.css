@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    font-family: monospace;
+}
+
+/* comentário */
+
+#titulo-h3 {
+    color: aquamarine;
+}
+
+.p-texto {
+    color: blue;
+}
+
+div {
+    color: aqua;
+}
+.p-dentro-da-div {
+    color: blueviolet;
+}
+#p-super {
+    color: chartreuse;
+}
+
+/* cores */
+
+.nome {
+    color: orange;
+}
+
+.hexa {
+    color: #c294f7
+}
+
+.rgba {
+    color: rgb(255, 223, 80, 1);
+}
+
+/* backgrounds */
+
+.div-back {
+    background-image: url(img/por-do-sol.jpg);
+    height: 300px;
+}
+
+.titulo-back {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
